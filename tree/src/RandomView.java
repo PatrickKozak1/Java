@@ -17,7 +17,6 @@ public class RandomView extends JFrame {
     public GraphPanel getGraphPanel() {
         return graphPanel;
     }
-
     public RandomView(){
         setTitle("RandomGenerator");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
