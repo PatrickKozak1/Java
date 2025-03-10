@@ -50,11 +50,7 @@ public class RandomController {
         Random r= new Random();
         return new Color(r.nextInt(256),r.nextInt(256),r.nextInt(256));
     }
-
-    private String(){
-        System.out.println("Hallo Welt!");
-    }
-
+    
     private void updateGraph(){
         SwingUtilities.invokeLater(()->{
 
