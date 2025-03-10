@@ -50,7 +50,7 @@ public class RandomController {
         Random r= new Random();
         return new Color(r.nextInt(256),r.nextInt(256),r.nextInt(256));
     }
-    
+
     private void updateGraph(){
         SwingUtilities.invokeLater(()->{
 
