@@ -5,4 +5,8 @@ public class RandomApp {
         new RandomController(model, view);
         view.setVisible(true);
     }
+
+    public static void String(){
+        System.out.println("Hallo heute is Montag");
+    }
 }
